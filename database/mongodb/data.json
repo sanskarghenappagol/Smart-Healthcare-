@@ -1,0 +1,311 @@
+{
+  "lab_reports": [
+    {
+      "report_id": "LAB-2026-001",
+      "patient_id": "PAT001",
+      "appointment_id": 1,
+      "report_type": "Lipid Profile Panel",
+      "uploaded_date": "2026-11-01T08:30:00Z",
+      "test_results": {
+        "total_cholesterol": {
+          "value": 235,
+          "unit": "mg/dL",
+          "normal_range": "< 200",
+          "status": "High"
+        },
+        "hdl_cholesterol": {
+          "value": 42,
+          "unit": "mg/dL",
+          "normal_range": "> 40",
+          "status": "Normal"
+        },
+        "ldl_cholesterol": {
+          "value": 158,
+          "unit": "mg/dL",
+          "normal_range": "< 100",
+          "status": "High"
+        },
+        "triglycerides": {
+          "value": 195,
+          "unit": "mg/dL",
+          "normal_range": "< 150",
+          "status": "Borderline"
+        },
+        "vldl": {
+          "value": 39,
+          "unit": "mg/dL",
+          "normal_range": "5 - 30",
+          "status": "High"
+        }
+      },
+      "doctor_comments": "Patient exhibits Stage 1 Dyslipidemia. Prescribed Atorvastatin 10mg. Re-evaluate in 60 days.",
+      "report_status": "Abnormal",
+      "file_url": "/reports/lab-2026-001-lipid.pdf"
+    },
+    {
+      "report_id": "LAB-2026-002",
+      "patient_id": "PAT003",
+      "appointment_id": 3,
+      "report_type": "Complete Blood Count (CBC)",
+      "uploaded_date": "2026-11-02T10:15:00Z",
+      "test_results": {
+        "hemoglobin": {
+          "value": 14.5,
+          "unit": "g/dL",
+          "normal_range": "13.0 - 17.0",
+          "status": "Normal"
+        },
+        "rbc_count": {
+          "value": 4.8,
+          "unit": "million/mcL",
+          "normal_range": "4.5 - 5.9",
+          "status": "Normal"
+        },
+        "wbc_count": {
+          "value": 12400,
+          "unit": "cells/mcL",
+          "normal_range": "4000 - 11000",
+          "status": "Elevated"
+        },
+        "platelets": {
+          "value": 240000,
+          "unit": "mcL",
+          "normal_range": "150000 - 450000",
+          "status": "Normal"
+        },
+        "neutrophils_pct": {
+          "value": 74,
+          "unit": "%",
+          "normal_range": "40 - 70",
+          "status": "High"
+        },
+        "esr": {
+          "value": 28,
+          "unit": "mm/hr",
+          "normal_range": "0 - 15",
+          "status": "Elevated"
+        }
+      },
+      "doctor_comments": "Mild leukocytosis indicating bacterial/viral respiratory infection. Responsive to Amoxicillin.",
+      "report_status": "Abnormal",
+      "file_url": "/reports/lab-2026-002-cbc.pdf"
+    },
+    {
+      "report_id": "LAB-2026-003",
+      "patient_id": "PAT002",
+      "appointment_id": 2,
+      "report_type": "Right Knee Digital X-Ray & MRI",
+      "uploaded_date": "2026-11-02T14:40:00Z",
+      "test_results": {
+        "joint_space": "Slight joint narrowing in medial compartment",
+        "osteophytes": "Absent",
+        "meniscus": "Intact, no radial or horizontal tears",
+        "acl_pcl": "Intact ligaments, mild soft tissue edema surrounding patella",
+        "conclusion": "Grade 1 Patellofemoral friction syndrome; no osseous fracture"
+      },
+      "doctor_comments": "Recommend physical therapy, quadriceps strengthening, and topical Diclofenac.",
+      "report_status": "Normal",
+      "file_url": "/reports/lab-2026-003-mri.pdf"
+    },
+    {
+      "report_id": "LAB-2026-004",
+      "patient_id": "PAT005",
+      "appointment_id": 5,
+      "report_type": "Fasting Blood Glucose & HbA1c",
+      "uploaded_date": "2026-11-04T07:45:00Z",
+      "test_results": {
+        "fasting_blood_sugar": {
+          "value": 104,
+          "unit": "mg/dL",
+          "normal_range": "70 - 99",
+          "status": "Borderline Impaired"
+        },
+        "post_prandial_glucose": {
+          "value": 138,
+          "unit": "mg/dL",
+          "normal_range": "< 140",
+          "status": "Normal"
+        },
+        "hba1c": {
+          "value": 5.8,
+          "unit": "%",
+          "normal_range": "< 5.7",
+          "status": "Prediabetic"
+        },
+        "estimated_avg_glucose": {
+          "value": 120,
+          "unit": "mg/dL",
+          "normal_range": "< 117",
+          "status": "Borderline"
+        }
+      },
+      "doctor_comments": "Early insulin resistance indicators. Emphasize low-glycemic Mediterranean diet and 45-min daily brisk walks.",
+      "report_status": "Borderline",
+      "file_url": "/reports/lab-2026-004-sugar.pdf"
+    },
+    {
+      "report_id": "LAB-2026-005",
+      "patient_id": "PAT007",
+      "appointment_id": null,
+      "report_type": "Thyroid Function Test (TFT)",
+      "uploaded_date": "2026-11-03T09:00:00Z",
+      "test_results": {
+        "t3_total": {
+          "value": 1.1,
+          "unit": "ng/mL",
+          "normal_range": "0.8 - 2.0",
+          "status": "Normal"
+        },
+        "t4_total": {
+          "value": 7.8,
+          "unit": "ug/dL",
+          "normal_range": "5.1 - 14.1",
+          "status": "Normal"
+        },
+        "tsh_ultrasensitive": {
+          "value": 2.34,
+          "unit": "uIU/mL",
+          "normal_range": "0.4 - 4.2",
+          "status": "Euthyroid / Normal"
+        }
+      },
+      "doctor_comments": "Thyroid hormone levels well within reference range. No replacement therapy required.",
+      "report_status": "Normal",
+      "file_url": "/reports/lab-2026-005-tft.pdf"
+    }
+  ],
+  "patient_reviews": [
+    {
+      "review_id": "REV-001",
+      "patient_id": "PAT001",
+      "doctor_id": "DOC001",
+      "rating": 5,
+      "comment": "Dr. Rajesh Sharma is extremely patient and explains ECG results with great clarity. His hypertension plan reduced my palpitations within 48 hours.",
+      "created_at": "2026-11-02T14:20:00Z"
+    },
+    {
+      "review_id": "REV-002",
+      "patient_id": "PAT002",
+      "doctor_id": "DOC002",
+      "rating": 5,
+      "comment": "Dr. Priya Nair accurately diagnosed my running knee injury and did not push for surgery. The physical therapy and pain management worked wonders.",
+      "created_at": "2026-11-03T11:45:00Z"
+    },
+    {
+      "review_id": "REV-003",
+      "patient_id": "PAT003",
+      "doctor_id": "DOC003",
+      "rating": 4,
+      "comment": "Good consultation and prompt prescription for viral fever. Wait time at clinic was about 15 minutes, but the diagnosis was spot-on.",
+      "created_at": "2026-11-04T16:10:00Z"
+    },
+    {
+      "review_id": "REV-004",
+      "patient_id": "PAT004",
+      "doctor_id": "DOC004",
+      "rating": 5,
+      "comment": "Dr. Ananya is wonderful with children. My daughter felt completely relaxed during the allergy checkup and the pediatric meds worked gently.",
+      "created_at": "2026-11-04T18:00:00Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "log_id": "AUD-1793947030540",
+      "user_id": "admin@pes.edu",
+      "role": "admin",
+      "action": "TRANSACTION_ROLLBACK",
+      "collection_or_table": "MySQL InnoDB",
+      "record_id": null,
+      "timestamp": "2026-11-06T06:37:10.540Z",
+      "additional_details": {
+        "mode": "rollback",
+        "total_duration_ms": 9,
+        "record_persisted": false
+      },
+      "_id": "doc_1793947030541_9dfxi5"
+    },
+    {
+      "log_id": "AUD-1793947030509",
+      "user_id": "admin@pes.edu",
+      "role": "admin",
+      "action": "LOGIN",
+      "collection_or_table": "User_Auth",
+      "record_id": 1,
+      "timestamp": "2026-11-06T06:37:10.509Z",
+      "additional_details": {
+        "method": "Evaluator Demo Switch",
+        "targetRole": "admin"
+      },
+      "_id": "doc_1793947030510_k2qyvo"
+    },
+    {
+      "log_id": "AUD-1793947030488",
+      "user_id": "admin@pes.edu",
+      "role": "admin",
+      "action": "LOGIN",
+      "collection_or_table": "User_Auth",
+      "record_id": 1,
+      "timestamp": "2026-11-06T06:37:10.488Z",
+      "additional_details": {
+        "method": "Evaluator Demo Switch",
+        "targetRole": "admin"
+      },
+      "_id": "doc_1793947030489_jd90qy"
+    },
+    {
+      "log_id": "AUD-1001",
+      "user_id": "admin@pes.edu",
+      "role": "admin",
+      "action": "INSERT",
+      "collection_or_table": "Medicine",
+      "record_id": 16,
+      "timestamp": "2026-11-01T09:00:00Z",
+      "additional_details": {
+        "item": "Salbutamol Inhaler",
+        "initial_stock": 25,
+        "unit_price": 220
+      }
+    },
+    {
+      "log_id": "AUD-1002",
+      "user_id": "rajesh.sharma@pes.edu",
+      "role": "doctor",
+      "action": "INSERT",
+      "collection_or_table": "Prescription",
+      "record_id": 1,
+      "timestamp": "2026-11-01T10:35:00Z",
+      "additional_details": {
+        "appointment_id": 1,
+        "patient": "PAT001",
+        "medicines_prescribed": 2
+      }
+    },
+    {
+      "log_id": "AUD-1003",
+      "user_id": "rohit.verma@gmail.com",
+      "role": "patient",
+      "action": "TRANSACTION_COMMIT",
+      "collection_or_table": "Payment",
+      "record_id": 1,
+      "timestamp": "2026-11-01T10:45:00Z",
+      "additional_details": {
+        "bill_id": 1,
+        "utr": "UPI/20261101/984512019921",
+        "amount": 1020
+      }
+    },
+    {
+      "log_id": "AUD-1004",
+      "user_id": "admin@pes.edu",
+      "role": "admin",
+      "action": "TRANSACTION_ROLLBACK",
+      "collection_or_table": "ACID_SIMULATOR",
+      "record_id": null,
+      "timestamp": "2026-11-05T20:15:00Z",
+      "additional_details": {
+        "simulated_error": "Controlled payment gateway timeout",
+        "rollback_verified": true
+      }
+    }
+  ]
+}

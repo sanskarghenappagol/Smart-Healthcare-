@@ -1,0 +1,6 @@
+{
+  "name": "PES Smart Healthcare & Appointment System",
+  "description": "Smart Healthcare & Doctor Appointment Management System for PES University CSE DBMS Mini-Project featuring 10-table MySQL schema, MongoDB NoSQL documents, Stored Procedures, Triggers, CTEs, and ACID Transaction Visualizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
